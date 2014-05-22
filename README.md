@@ -12,11 +12,11 @@ The easiest way to use APCNetworkActivityIndicatorManager is to simply copy the 
 ```obj-c
 #import "APCNetworkActivityIndicatorManager.h"
 
-[NCTNetworkActivityIndicatorManager start]; // start the indicator
+[APCNetworkActivityIndicatorManager start]; // start the indicator
 
 // ...
 
-[NCTNetworkActivityIndicatorManager stop];  // stop the indicator
+[APCNetworkActivityIndicatorManager stop];  // stop the indicator
 
 ```
 
