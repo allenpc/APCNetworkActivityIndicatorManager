@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74110B7D192E6FDD00811452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74110B7C192E6FDD00811452 /* Foundation.framework */; };
+		74110B82192E6FDD00811452 /* APCNetworkActivityIndicatorManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74110B81192E6FDD00811452 /* APCNetworkActivityIndicatorManager.h */; };
+		74110B84192E6FDD00811452 /* APCNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74110B83192E6FDD00811452 /* APCNetworkActivityIndicatorManager.m */; };
+		74110B8B192E6FDD00811452 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74110B8A192E6FDD00811452 /* XCTest.framework */; };
+		74110B8C192E6FDD00811452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74110B7C192E6FDD00811452 /* Foundation.framework */; };
+		74110B8E192E6FDD00811452 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74110B8D192E6FDD00811452 /* UIKit.framework */; };
+		74110B91192E6FDD00811452 /* libAPCNetworkActivityIndicatorManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74110B79192E6FDD00811452 /* libAPCNetworkActivityIndicatorManager.a */; };
+		74110B97192E6FDD00811452 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74110B95192E6FDD00811452 /* InfoPlist.strings */; };
+		74110B99192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74110B98192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74110B8F192E6FDD00811452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74110B71192E6FDC00811452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74110B78192E6FDD00811452;
+			remoteInfo = APCNetworkActivityIndicatorManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		74110B77192E6FDD00811452 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				74110B82192E6FDD00811452 /* APCNetworkActivityIndicatorManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		74110B79192E6FDD00811452 /* libAPCNetworkActivityIndicatorManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPCNetworkActivityIndicatorManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		74110B7C192E6FDD00811452 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74110B80192E6FDD00811452 /* APCNetworkActivityIndicatorManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APCNetworkActivityIndicatorManager-Prefix.pch"; sourceTree = "<group>"; };
+		74110B81192E6FDD00811452 /* APCNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APCNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		74110B83192E6FDD00811452 /* APCNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APCNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		74110B89192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APCNetworkActivityIndicatorManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74110B8A192E6FDD00811452 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		74110B8D192E6FDD00811452 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		74110B94192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APCNetworkActivityIndicatorManagerTests-Info.plist"; sourceTree = "<group>"; };
+		74110B96192E6FDD00811452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74110B98192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APCNetworkActivityIndicatorManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74110B76192E6FDD00811452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74110B7D192E6FDD00811452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74110B86192E6FDD00811452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74110B91192E6FDD00811452 /* libAPCNetworkActivityIndicatorManager.a in Frameworks */,
+				74110B8B192E6FDD00811452 /* XCTest.framework in Frameworks */,
+				74110B8E192E6FDD00811452 /* UIKit.framework in Frameworks */,
+				74110B8C192E6FDD00811452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74110B70192E6FDC00811452 = {
+			isa = PBXGroup;
+			children = (
+				74110B7E192E6FDD00811452 /* APCNetworkActivityIndicatorManager */,
+				74110B92192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests */,
+				74110B7B192E6FDD00811452 /* Frameworks */,
+				74110B7A192E6FDD00811452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74110B7A192E6FDD00811452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74110B79192E6FDD00811452 /* libAPCNetworkActivityIndicatorManager.a */,
+				74110B89192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74110B7B192E6FDD00811452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74110B7C192E6FDD00811452 /* Foundation.framework */,
+				74110B8A192E6FDD00811452 /* XCTest.framework */,
+				74110B8D192E6FDD00811452 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74110B7E192E6FDD00811452 /* APCNetworkActivityIndicatorManager */ = {
+			isa = PBXGroup;
+			children = (
+				74110B81192E6FDD00811452 /* APCNetworkActivityIndicatorManager.h */,
+				74110B83192E6FDD00811452 /* APCNetworkActivityIndicatorManager.m */,
+				74110B7F192E6FDD00811452 /* Supporting Files */,
+			);
+			path = APCNetworkActivityIndicatorManager;
+			sourceTree = "<group>";
+		};
+		74110B7F192E6FDD00811452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74110B80192E6FDD00811452 /* APCNetworkActivityIndicatorManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74110B92192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				74110B98192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.m */,
+				74110B93192E6FDD00811452 /* Supporting Files */,
+			);
+			path = APCNetworkActivityIndicatorManagerTests;
+			sourceTree = "<group>";
+		};
+		74110B93192E6FDD00811452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74110B94192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests-Info.plist */,
+				74110B95192E6FDD00811452 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74110B78192E6FDD00811452 /* APCNetworkActivityIndicatorManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74110B9C192E6FDD00811452 /* Build configuration list for PBXNativeTarget "APCNetworkActivityIndicatorManager" */;
+			buildPhases = (
+				74110B75192E6FDD00811452 /* Sources */,
+				74110B76192E6FDD00811452 /* Frameworks */,
+				74110B77192E6FDD00811452 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APCNetworkActivityIndicatorManager;
+			productName = APCNetworkActivityIndicatorManager;
+			productReference = 74110B79192E6FDD00811452 /* libAPCNetworkActivityIndicatorManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		74110B88192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74110B9F192E6FDD00811452 /* Build configuration list for PBXNativeTarget "APCNetworkActivityIndicatorManagerTests" */;
+			buildPhases = (
+				74110B85192E6FDD00811452 /* Sources */,
+				74110B86192E6FDD00811452 /* Frameworks */,
+				74110B87192E6FDD00811452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74110B90192E6FDD00811452 /* PBXTargetDependency */,
+			);
+			name = APCNetworkActivityIndicatorManagerTests;
+			productName = APCNetworkActivityIndicatorManagerTests;
+			productReference = 74110B89192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74110B71192E6FDC00811452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 74110B74192E6FDC00811452 /* Build configuration list for PBXProject "APCNetworkActivityIndicatorManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74110B70192E6FDC00811452;
+			productRefGroup = 74110B7A192E6FDD00811452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74110B78192E6FDD00811452 /* APCNetworkActivityIndicatorManager */,
+				74110B88192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74110B87192E6FDD00811452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74110B97192E6FDD00811452 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74110B75192E6FDD00811452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74110B84192E6FDD00811452 /* APCNetworkActivityIndicatorManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74110B85192E6FDD00811452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74110B99192E6FDD00811452 /* APCNetworkActivityIndicatorManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74110B90192E6FDD00811452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74110B78192E6FDD00811452 /* APCNetworkActivityIndicatorManager */;
+			targetProxy = 74110B8F192E6FDD00811452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74110B95192E6FDD00811452 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74110B96192E6FDD00811452 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74110B9A192E6FDD00811452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74110B9B192E6FDD00811452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74110B9D192E6FDD00811452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/APCNetworkActivityIndicatorManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APCNetworkActivityIndicatorManager/APCNetworkActivityIndicatorManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74110B9E192E6FDD00811452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/APCNetworkActivityIndicatorManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APCNetworkActivityIndicatorManager/APCNetworkActivityIndicatorManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74110BA0192E6FDD00811452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APCNetworkActivityIndicatorManager/APCNetworkActivityIndicatorManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APCNetworkActivityIndicatorManagerTests/APCNetworkActivityIndicatorManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		74110BA1192E6FDD00811452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APCNetworkActivityIndicatorManager/APCNetworkActivityIndicatorManager-Prefix.pch";
+				INFOPLIST_FILE = "APCNetworkActivityIndicatorManagerTests/APCNetworkActivityIndicatorManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74110B74192E6FDC00811452 /* Build configuration list for PBXProject "APCNetworkActivityIndicatorManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74110B9A192E6FDD00811452 /* Debug */,
+				74110B9B192E6FDD00811452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74110B9C192E6FDD00811452 /* Build configuration list for PBXNativeTarget "APCNetworkActivityIndicatorManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74110B9D192E6FDD00811452 /* Debug */,
+				74110B9E192E6FDD00811452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74110B9F192E6FDD00811452 /* Build configuration list for PBXNativeTarget "APCNetworkActivityIndicatorManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74110BA0192E6FDD00811452 /* Debug */,
+				74110BA1192E6FDD00811452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74110B71192E6FDC00811452 /* Project object */;
+}
